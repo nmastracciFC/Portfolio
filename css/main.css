@@ -35,6 +35,8 @@ a {
 
 #container {
 	background-image: url(../images/buildings-trans.png);
+	background-repeat: none;
+	/*background-position: fixed;*/
 	background-size: 100%;
 }
 #logoAll {
