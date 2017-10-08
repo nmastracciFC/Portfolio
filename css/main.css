@@ -1,0 +1,142 @@
+/*@charset "UTF-8"*/
+
+.hidden {
+	display:none;
+}
+
+div, body, section{
+	margin:0;
+	padding:0;
+}
+body {
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
+	
+}
+h1 {
+	font-family: "Open Sans", Open Sans;
+	font-size: 50px;
+	font-weight:900;
+	margin: 250px 0 65px 170px;
+	line-height: 80px;
+}
+h4 {
+	font-family: "Open Sans", Open Sans;
+	font-size: 25px;
+	margin: 80px 0 0 170px ;
+	width: 380px;
+	line-height: 35px;
+}
+h4 a:hover {
+	border-bottom: 1px solid #000;
+}
+a {
+	text-decoration: none;
+	color:#000;
+
+}
+
+#container {
+	/*background-image: url(../images/buildings-trans.png);
+	background-repeat: none;
+	background-position: fixed;
+	background-size: 100%;*/
+	/*width:1366px;*/
+	height: 1370px;
+	margin:0 auto;
+
+}
+
+#initial {
+	background-color: #fff;
+	width:1380px;
+	height:1200px;
+	position:relative;
+	margin:0 auto;
+	z-index: 1;
+}
+#initialLogo {
+	width:400px;
+	margin-top:25%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+#initialText {
+	text-align: center;
+	font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+	margin-top:30px;
+	font-size: 30px;
+	letter-spacing: 0.220em;
+	
+}
+
+#backImg {
+	position:absolute;
+}
+#logoAll {
+	
+	width:500px;
+	display:inline;
+}
+#logo {
+	width:100px;
+	margin: 30px 0 0 30px;
+	
+}
+#logoText {
+	display:inline;
+	font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+	font-size: 25px;
+	letter-spacing: 0.220em;
+	margin-left: 27px;
+	margin-bottom:30px;
+}
+.main-nav {
+	float:right;
+	margin-top: 63px;
+	margin-right: 50px;
+} 
+.main-nav li{
+	display: inline;
+	margin-right: 100px;
+} 
+.main-nav  a{
+	text-decoration: none;
+	font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+	font-size: 20px;
+	letter-spacing: 0.220em;
+	color: #000;
+	text-shadow: 0px 0px 10px #fff;
+} 
+.main-nav li:hover{
+	border-bottom: 2px solid #000;
+	padding: 15px;
+} 
+#blurb {
+
+}
+.freshAir {
+	height:460px;
+}
+footer {
+	
+	
+}
+
+.footer-nav {
+	/*margin-top: 420px;*/
+	padding:20px;
+
+} 
+.footer-nav li{
+	display: inline;
+	margin-right: 30px;
+} 
+.footer-nav  a{
+	text-decoration: none;
+	font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+	font-size: 25px;
+	letter-spacing: 0.220em;
+	color: #000;
+} 
