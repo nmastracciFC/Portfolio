@@ -50,56 +50,12 @@ body {
   font-family: helvetica, arial, sans-serif;
   font-size: 14px; }
 
-h1 {
-  font-family: "Open Sans", Open Sans;
-  font-size: 50px;
-  font-weight: 900;
-  margin: 250px 0 65px 170px;
-  line-height: 80px; }
-
-h4 {
-  font-family: "Open Sans", Open Sans;
-  font-size: 25px;
-  margin: 80px 0 0 170px;
-  width: 380px;
-  line-height: 35px; }
-  h4 a:hover {
-    border-bottom: 1px solid #000; }
-
 a {
   text-decoration: none;
   color: #000; }
 
 #container {
-  /*background-image: url(../images/buildings-trans.png);
-  background-repeat: none;
-  background-position: fixed;
-  background-size: 100%;*/
-  /*width:1366px;*/
-  height: 1370px;
   margin: 0 auto; }
-
-#initial {
-  background-color: #fff;
-  width: 1380px;
-  height: 1200px;
-  position: relative;
-  margin: 0 auto;
-  z-index: 1; }
-
-#initialLogo {
-  width: 400px;
-  margin-top: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
-
-#initialText {
-  text-align: center;
-  font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
-  margin-top: 30px;
-  font-size: 30px;
-  letter-spacing: 0.220em; }
 
 #backImg {
   position: absolute; }
@@ -118,15 +74,21 @@ a {
   font-size: 25px;
   letter-spacing: 0.220em;
   margin-left: 27px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  transition: margin 0.3s;
+  transition-timing-function: ease; }
+  #logoText :hover {
+    margin: 33px; }
 
 .main-nav {
   float: right;
-  margin-top: 63px;
-  margin-right: 50px; }
+  margin-top: 63px; }
   .main-nav li {
     display: inline;
-    margin-right: 100px; }
+    margin-right: 100px;
+    transition: border-bottom 0.3s;
+    transition: padding 0.3s;
+    transition-timing-function: ease; }
   .main-nav li:hover {
     border-bottom: 2px solid #000;
     padding: 15px; }
@@ -135,27 +97,73 @@ a {
     font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
     font-size: 20px;
     letter-spacing: 0.220em;
-    color: #000;
-    text-shadow: 0px 0px 10px #fff; }
+    color: #000; }
 
-.freshAir {
-  height: 460px; }
+#blurb h1 {
+  font-family: "Open Sans", Open Sans;
+  font-size: 50px;
+  font-weight: 900;
+  margin: 250px 0 65px 170px;
+  line-height: 80px; }
+#blurb h4 {
+  font-family: "Open Sans", Open Sans;
+  font-size: 25px;
+  margin: 80px 0 0 170px;
+  width: 380px;
+  line-height: 35px; }
+  #blurb h4 a:hover {
+    border-bottom: 1px solid #000; }
 
 footer {
-  background-color: #fff; }
+  background-color: #fff;
+  margin-top: 150px; }
 
 .footer-nav {
-  /*margin-top: 420px;*/
+  margin-left: 50px;
   background-color: #fff;
   padding: 20px; }
   .footer-nav li {
     display: inline;
-    margin-right: 30px; }
+    margin-right: 40px; }
   .footer-nav a {
     text-decoration: none;
     font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
-    font-size: 25px;
+    font-size: 20px;
     letter-spacing: 0.220em;
     color: #000; }
+
+#gameChoice {
+  font-family: "Open Sans", Open Sans;
+  color: #dbdbdb;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 300px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto; }
+
+#option1, #option2 {
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  font-family: "Acumin Pro Condensed", Acumin Pro Condensed;
+  font-size: 30px;
+  margin-top: 40px;
+  letter-spacing: 0.05em;
+  color: #e56a6a;
+  margin-left: 250px;
+  transition: border-bottom 0.3s;
+  transition: transform(scale) 0.3s;
+  transition-timing-function: ease; }
+
+#option1:hover, #option2:hover {
+  border-bottom: 2px solid #dbdbdb;
+  transform: scale(2, 2); }
+
+#option2 {
+  float: right;
+  color: #76df6b;
+  margin-left: 0px;
+  margin-right: 250px; }
 
 /*# sourceMappingURL=styles.css.map */

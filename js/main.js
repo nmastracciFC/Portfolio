@@ -1,6 +1,6 @@
 (function (){
 	"use strict";
-	console.log("works!");
+	console.log("main.js connected");
 
 var initialBox = document.querySelector("#initial"),
 	ypos = window.pageYOffset;
