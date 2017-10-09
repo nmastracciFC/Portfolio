@@ -20,9 +20,13 @@ a {
 }
 
 #container {
-	// height: 1370px;
+	width: 1200px;
 	margin:0 auto;
 
+	// background-image: url(../images/square-design.svg);
+	// background-position: right;
+	// background-repeat: no-repeat;
+	// background-attachment: fixed;
 
 }
 
@@ -100,6 +104,11 @@ a {
 } 
 
 #blurb {
+	width:600px;
+	display:inline;
+	float:left;
+	
+
 	h1 {
 	font-family: $fontfamilythick;
 	font-size: 50px;
@@ -118,6 +127,13 @@ a {
 		}
 	}
 }
+
+#rightSide {
+	width:550;
+	display:inline;
+	clear:both;
+	float: right;
+}
  
 // .freshAir {
 // 	height:460px;
@@ -125,6 +141,7 @@ a {
 footer {
 	background-color: #fff;
 	margin-top: 150px;
+	clear:both;
 }
 .footer-nav {
 	margin-left: 50px;
@@ -174,7 +191,7 @@ footer {
 		}	
 #option1:hover {
 			border-bottom: 2px solid $almostwhite;
-			transform: scale(2,2);
+			transform: scale(1.5);
 		}
 
 #option2{

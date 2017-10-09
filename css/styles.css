@@ -55,6 +55,7 @@ a {
   color: #000; }
 
 #container {
+  width: 1200px;
   margin: 0 auto; }
 
 #backImg {
@@ -99,24 +100,35 @@ a {
     letter-spacing: 0.220em;
     color: #000; }
 
-#blurb h1 {
-  font-family: "Open Sans", Open Sans;
-  font-size: 50px;
-  font-weight: 900;
-  margin: 250px 0 65px 170px;
-  line-height: 80px; }
-#blurb h4 {
-  font-family: "Open Sans", Open Sans;
-  font-size: 25px;
-  margin: 80px 0 0 170px;
-  width: 380px;
-  line-height: 35px; }
-  #blurb h4 a:hover {
-    border-bottom: 1px solid #000; }
+#blurb {
+  width: 600px;
+  display: inline;
+  float: left; }
+  #blurb h1 {
+    font-family: "Open Sans", Open Sans;
+    font-size: 50px;
+    font-weight: 900;
+    margin: 250px 0 65px 170px;
+    line-height: 80px; }
+  #blurb h4 {
+    font-family: "Open Sans", Open Sans;
+    font-size: 25px;
+    margin: 80px 0 0 170px;
+    width: 380px;
+    line-height: 35px; }
+    #blurb h4 a:hover {
+      border-bottom: 1px solid #000; }
+
+#rightSide {
+  width: 550;
+  display: inline;
+  clear: both;
+  float: right; }
 
 footer {
   background-color: #fff;
-  margin-top: 150px; }
+  margin-top: 150px;
+  clear: both; }
 
 .footer-nav {
   margin-left: 50px;
@@ -158,7 +170,7 @@ footer {
 
 #option1:hover, #option2:hover {
   border-bottom: 2px solid #dbdbdb;
-  transform: scale(2, 2); }
+  transform: scale(1.5); }
 
 #option2 {
   float: right;

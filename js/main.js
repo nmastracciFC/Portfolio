@@ -2,23 +2,23 @@
 	"use strict";
 	console.log("main.js connected");
 
-var initialBox = document.querySelector("#initial"),
-	ypos = window.pageYOffset;
-console.log(initialBox);
+// var initialBox = document.querySelector("#initial"),
+// 	ypos = window.pageYOffset;
+// console.log(initialBox);
 
-function fadeIn(){
-	console.log(ypos);
+// function fadeIn(){
+// 	console.log(ypos);
 	
-		initialBox.classList.add("hidden");
+// 		initialBox.classList.add("hidden");
 
-	};
+// 	};
 	
 
-}
+// }
 
 
 
-window.addEventListener("scroll", fadeIn, false);
+// window.addEventListener("scroll", fadeIn, false);
 
 
 
